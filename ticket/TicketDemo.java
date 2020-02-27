@@ -7,7 +7,7 @@ import java.util.concurrent.TimeUnit;
  * @Author Adam
  * @Date Create in 2020/2/27  16:54
  * @Description TODO
- *      模拟医院排对窗口程序
+ *      模拟医院排队窗口程序
  *      会涉及到并发，涉及到并发就意味着涉及到线程
  *      要保证线程的绝对安全（所谓的线程安全，就是要保证所有服务器的上的数据一致性）
  *
