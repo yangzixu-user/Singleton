@@ -48,6 +48,7 @@ public class TicketDemo extends Thread {
                 e.printStackTrace();
             }*//*
         }*/
+
         /**
          * 使用上锁的方法来解决问题
          *     1. 锁住当前对象this
