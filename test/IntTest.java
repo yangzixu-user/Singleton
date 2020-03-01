@@ -22,15 +22,19 @@ package com.aaa.test;
  */
 public class IntTest {
     public static void main(String[] args) {
-        int i = 1;
-        int t = 3;
-        i = ++i;
-        i = t++;
-        int j = i++;
-        int k = i + ++i*i++;
-        System.out.println("i ="+ i);
-        System.out.println("j ="+ j);
-        System.out.println("k ="+ k);
+//        int i = 1;
+//        int t = 3;
+//        i = ++i;
+//        i = t++;
+//        int j = i++;
+//        int k = i + ++i*i++;
+//        System.out.println("i ="+ i);
+//        System.out.println("j ="+ j);
+//        System.out.println("k ="+ k);
+        int i = 2 ;
+        int b = 3;
+        i = (i++ + b++)*10;
+        System.out.println(i);
     }
 
 }
